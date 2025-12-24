@@ -42,7 +42,10 @@ export default function Exercice6() {
         autoCapitalize="none"
       />
       <View style={{ width: 220, marginTop: 6 , alignSelf: "center"}}>
-         {/*button est limite nhandleSubmit accpt pas style sauf que color of text this is whay we use TouchableOpacity ou Pressable*/} 
+        {/* 
+          Button est limité et n’accepte pas le style.
+          On utilise TouchableOpacity ou Pressable pour personnaliser le bouton.
+        */}
         {/* <Button color="#3B2AF4" title="Valider" onPress={handleSubmit} /> */} 
         <TouchableOpacity style={styles.btn} onPress={handleSubmit}>
           <Text style={styles.btnText}>Valider</Text>
